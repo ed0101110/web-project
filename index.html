@@ -1,21 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <link rel="icon" type="image/png" href="img/favicon/favicon.ico" sizes="32x32" /> -->
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-</head>
-<body>
-    <header>
-        <h1>Team Template</h1>
-    </header>
-    <main>
+    <title>Figma </title>
 
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <nav class="header__nav nav">
+                <div class="nav__menu">
+                    <a href="#" class="nav__menu-item">Home</a>
+                    <a href="#" class="nav__menu-item">Product</a>
+                    <a href="#" class="nav__menu-item">Pricing</a>
+                    <a href="#" class="nav__menu-item">About</a>
+                    <a href="#" class="nav__menu-item">Contact</a>
+                </div>
+                <div class="header__logo">
+                    <img src="img/figma-logo.svg" alt="Header logo">
+                </div>
+                <div class="nav__social-media">
+                    <img class="social-media__img" src="img/twit-icon.png" alt="twiter_icon">
+                    <img class="social-media__img" src="img/face-icon.png" alt="facebook_icon">
+                    <img class="social-media__img" src="img/inst-icon.png" alt="instagram_icon">
+                </div>
+            </nav>
+            <div class="header__text">
+                <h1 class="header__title">The best products start with Figma</h1>
+                <p class="header__subtitle">Most calendars are designed for teams. State is designed for freelancers.
+                </p>
+            </div>
+            <div class="header__button">
+                <a class="button" href="#">Try For Free</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container container">
+            <section class="features">
+                <div class="features__title-header">
+                    <h2 class="features__title">Features</h2>
+                    <p class="features__subtitle">Most calendars are designed for teams.</p>
+                </div>
+                <img class="feature__video" src="img/tev-video.png" alt="Video about Figma">
+                <div class="feature__opportunity opportunity">
+                    <div class="opportunity__block">
+                        <img class="opportunity__icon" src="img/square-circle.png"
+                            alt="Strange icon">
+                        <h4 class="opportunity__block-title">OpenType features <br> Variable fonts</h4>
+                        <p class="opportunity__block-text">State helps you see how many more days you need to work to
+                            reach
+                            your
+                            financial goal.</p>
+                    </div>
+                    <div class="opportunity__block">
+                        <img class="opportunity__icon" src="img/pencil.png" alt="Pencil">
+                        <h4 class="opportunity__block-title">Design with real data</h4>
+                        <p class="opportunity__block-text">State helps you see how many more days you need to work to
+                            reach
+                            your
+                            financial goal.</p>
+                    </div>
+                    <div class="opportunity__block">
+                        <img class="opportunity__icon" src="img/brush.png" alt="Brush">
+                        <h4 class="opportunity__block-title">Fastest way <br> to take action</h4>
+                        <p class="opportunity__block-text">State helps you see how many more days you need to work to
+                            reach
+                            your
+                            financial goal.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="organize-block">
+                <div class="organize-block__header">
+                    <h2 class="organize-block__title">Fastest way to organize</h2>
+                    <p class="organize-block__subtitle">Most calendars are designed for teams</p>
+                    <div class="button">
+                        <a href="#">Try For Free</a>
+                    </div>
+                </div>
+                <img class="organize-block__picture" src="img/leptop-t.png" alt="computer monitor">
+            </section>
+
+            <section class="newsletter">
+                <div class="newsletter__header">
+                    <h2 class="newsletter__introduction">At your fingertips</h2>
+                    <h3 class="newsletter__title">Newsletter</h3>
+                    <p class="newsletter__subtitle">Most calendars are designed for teams. State is design for
+                        freelancers
+                    </p>
+                </div>
+                <div class="newsletter__subscribe subscribe">
+                    <h3 class="subscribe__title">Subscribe to our Newsletter</h3>
+                    <p class="subscribe__text">Avaiable exclusivery on Figmaland</p>
+
+                    <form class="newsletter__form form" action="#" method="get">
+                        <input class="form__email" type="email" name="your_email" placeholder="Your Email">
+                        <button type="submit" class="blue-btn">Subscribe</button>
+                    </form>
+                </div>
+                <img class="newsletter__picture" src="img/man-newsletter.png" alt="Man with letters">
+            </section>
+
+            <section class="partners">
+                <div class="partners__header">
+                    <h2 class="partners__title">Partners</h2>
+                    <p class="partners__subtitle">Most calendars are designed for teams. State is design for
+                        freelancers</p>
+                </div>
+                <div class="partners__logos">
+                    <div class="partners__name">
+                        <p class="partners__logo-title">Client Name</p>
+                        <img src="img/google.png" alt="Google">
+                    </div>
+                    <div class="partners__name">
+                        <p class="partners__logo-title">Client Name</p>
+                        <img src="img/amazon.png" alt="Amazon">
+                    </div>
+                    <div class="partners__name">
+                        <p class="partners__logo-title">Client Name</p>
+                        <img src="img/microsoft.png" alt="Microsoft">
+                    </div>
+                    <div class="partners__name">
+                        <p class="partners__logo-title">Client Name</p>
+                        <img src="img/uber.png" alt="Microsoft">
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="#">Try For Free</a>
+                </div>
+            </section>
+
+            <section class="testimonials">
+                <div class="testimonials__header">
+                    <h2 class="testimonials__title">Testimonials</h2>
+                    <img class="testimonials__logo" src="img/ibm.png" alt="IBM">
+                    <p class="testimonials__text">Most calendars are designed for teams. State is designed for
+                        freelancers who want a simple way to plan their schedure</p>
+                </div>
+                <div class="testimonials__designer-info designer-info">
+                    <img src="img/designer.png" alt="Designer photo">
+                    <p> <span class="designer-info__title">Organize across</span> Ui designer</p>
+                </div>
+                <div class="button">
+                    <a href="#">More Testimonials</a>
+                </div>
+            </section>
+
+            <section class="pricing">
+                <div class="pricing__header">
+                    <h2 class="pricing__title">Pricing</h2>
+                    <p class="pricing__subtitle">Most calendars are designed for teams</p>
+                </div>
+                <div class="pricing__packages">
+                    <div class="pricing__package">
+                        <h3 class="pricing__package-title">FREE</h3>
+                        <p class="pricing__package-subtitle">Organize across all apps by hand</p>
+                        <div class="pricing__price price">
+                            <p class="price__value">0</p>
+                            <p class="price__content"><span class="currency">$</span>Per Month</p>
+                        </div>
+                        <ul class="pricing__feature">
+                            <li class="pricing__list">Pricing Feature</li>
+                            <li class="pricing__list">Pricing Feature</li>
+                            <li class="pricing__list">Pricing Feature</li>
+                            <li class="pricing__list">Pricing Feature</li>
+                        </ul>
+                        <div class="button">
+                            <a href="#">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="pricing__package-standart">
+                        <h3 class="pricing__package-title">STANDART</h3>
+                        <p class="pricing__package-subtitle">Organize across all apps by hand</p>
+                        <div class="pricing__price price">
+                            <p class="price__value">10</p>
+                            <p class="price__content"><span class="currency">$</span>Per Month</p>
+                        </div>
+                        <ul class="pricing__feature">
+                            <li class="pricing__list">Pricing Feature</li>
+                            <li class="pricing__list">Pricing Feature</li>
+                            <li class="pricing__list">Pricing Feature</li>
+                            <li class="pricing__list">Pricing Feature</li>
+                        </ul>
+                        <div>
+                            <a class="button" href="#">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="pricing__package">
+                        <h3 class="pricing__package-title">BUSSINESS</h3>
+                        <p class="pricing__package-subtitle">Organize across all apps by hand</p>
+                        <div class="pricing__price price">
+                            <p class="price__value">99</p>
+                            <p class="price__content"><span class="currency">$</span>Per Month</p>
+                        </div>
+                        <ul class="pricing__feature">
+                            <li class="pricing__list">Pricing Feature</li>
+                            <li class="pricing__list">Pricing Feature</li>
+                            <li class="pricing__list">Pricing Feature</li>
+                            <li class="pricing__list">Pricing Feature</li>
+                        </ul>
+                        <div class="button">
+                            <a href="#">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-us">
+                <div class="contact-us__header">
+                    <h2 class="contact-us__title">Contact Us</h2>
+                    <p class="contact-us__subtitle">Most calendars are designed for teams</p>
+                </div>
+                <div class="contact-us__information">
+                    <iframe class="map-card"
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2524.8204476980527!2d25.92788000495152!3d48.269966191115735!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1678700504672!5m2!1suk!2sua"
+                        width="450" height="320" style="border:0;" allowfullscreen=""
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="contact-us__social-media">
+                        <img src="img/instagram-m.png" alt="twiter">
+                        <img src="img/facebook-m.png" alt="facebook">
+                        <img src="img/instagram-m.png" alt="instagram">
+                    </div>
+                    <div class="contact__us-data">
+                        <div class="contact-us__data-block">
+                            <img src="img/gps_icon.png" alt="gps_icon">
+                            <p class="block-content">6386 Spring St unefined Anchorage. Georgia 12473 United States</p>
+                        </div>
+                        <div class="contact-us__data-block">
+                            <img src="img/phone_icon.png" alt="phone icon">
+                            <p class="block-content">(843)555-0130</p>
+                        </div>
+                        <div class="contact-us__data-block">
+                            <img src="img/letter_icon.png" alt="email icon">
+                            <p class="block-content">willie.jennings@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-us__form">
+                        <h3 class="form-title">Contact Us</h3>
+                        <form class="form-card" action="#">
+                            <div class="forms">
+                                <input class="user-data" type="text" name="user_name" placeholder="Your Name">
+                            </div>
+                            <div class="forms">
+                                <input class="user-data" type="email" name="user_email" placeholder="Your Email">
+                            </div>
+                            <div class="forms">
+                                <textarea class="user-message" name="user_message"
+                                    placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="form-btn">
+                                <button type="submit" class="forms-btn">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+        </div>
     </main>
+
     <footer>
 
     </footer>
+
 </body>
+
 </html>
