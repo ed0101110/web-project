@@ -1,5 +1,5 @@
 @import url(common.css);
-/* @import url(header.css);
+@import url(header.css);
 @import url(features.css);
 @import url(organize-block.css);
 @import url(newsletter.css);
@@ -7,4 +7,4 @@
 @import url(testimonials.css);
 @import url(pricing.css);
 @import url(contact-us.css);
-@import url(footer.css); */
+@import url(footer.css);

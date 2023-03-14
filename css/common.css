@@ -1,9 +1,23 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 :root {
     
@@ -11,7 +25,7 @@
     --section-title-color: #252B42;
     --title-font-size: 3rem;
     --subtitle-font-size: 1.75rem;
-    font-family: "Graphik";
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: var(--section-text-color);
     min-width: 320px;
