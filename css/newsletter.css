@@ -1,0 +1,122 @@
+.newsletter {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 380px 1fr 425px;
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-template-areas:
+        "header"
+        "picture"
+        "form";
+}
+
+.newsletter__header {
+    margin: 81px auto 95px;
+    grid-area: header;
+}
+
+.newsletter__introduction {
+    font-size: 20px;
+    color: var(--section-title-color);
+}
+
+.newsletter__title {
+    font-size: var(--title-font-size);
+    color: var(--section-title-color);
+    font-weight: 400;
+    padding: 17px 0 27px;
+}
+
+.newsletter__subtitle {
+    font-size: var(--subtitle-font-size);
+    letter-spacing: 0.2px;
+    line-height: 40px;
+}
+
+.newsletter__picture {
+    margin: 0 auto 95px;
+    grid-area: picture;
+    max-width: 600px;
+}
+
+.newsletter__subscribe {
+    justify-self: auto;
+    grid-area: form;
+}
+
+.subscribe__title {
+    font-size: 1.25rem;
+    color: var(--section-title-color);
+    padding-bottom: 10px;
+}
+
+.subscribe__text {
+    font-size: 1.125rem;
+    letter-spacing: 0.2px;
+}
+
+.newsletter__form {
+    margin: 34px 0 114px;
+}
+
+.form__email {
+    background-color: #F4F4F4;
+    border-radius: 39px;
+    padding: 19px 35px;
+    margin: 12px auto 10px;
+    border-color: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    max-width: 250px;
+}
+
+@media (min-width: 400px) {
+    .blue_btn {
+        padding: 16px 128px;
+        margin: auto;
+    }
+
+    .form__email {
+        min-width: 353px;
+    }
+}
+
+@media (min-width: 900px) {
+    .newsletter {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 2fr 236px;
+        grid-template-areas:
+            "picture header"
+            "picture form";
+        column-gap: 2rem;
+    }
+
+    .newsletter__header {
+        text-align: start;
+    }
+
+    .newsletter__picture {
+        margin: 0 auto 95px;
+        max-width: 100%;
+        grid-row: 1 / 3;
+        align-self: center;
+        margin: auto;
+    }
+
+    .newsletter__subscribe {
+        max-width: 457px;
+        text-align: start;
+    }
+
+    .newsletter__form {
+        display: flex;
+    }
+
+    .newsletter__form .blue-btn {
+        padding: 16px 38px;
+    }
+
+    .form__email {
+        min-width: 273px;
+        margin-right: 12px;
+    }
+}

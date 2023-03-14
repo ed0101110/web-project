@@ -1,0 +1,133 @@
+.pricing {
+    padding: 20px 20px 68px;
+    background-color: #252B42;
+}
+
+.pricing__header {
+    padding: 100px 0 108px;
+}
+
+.pricing__title {
+    font-size: var(--title-font-size);
+    font-weight: 400;
+    padding-bottom: 27px;
+    color: #fff;
+}
+
+.pricing__subtitle {
+    font-size: var(--subtitle-font-size);
+    letter-spacing: 0.2px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.pricing__packages {
+    padding-bottom: 118px;
+}
+
+.pricing__packages:last-child {
+    margin: 0 auto;
+}
+
+.pricing__package {
+    margin: 0 auto 50px;
+    padding: 43px 0 40px;
+    max-width: 335px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 23px;
+    background-color: #fff;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+}
+
+.pricing__package-standart {
+    margin: 0 auto 50px;
+    padding: 43px 0 40px;
+    max-width: 335px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 23px;
+    background-color: #2091F9;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+}
+
+.pricing__package-standart p,
+.pricing__package-standart h3 {
+    color: #fff;
+}
+
+.pricing__package-standart .button {
+    background-color: #fff;
+    color: #2091F9;
+}
+
+.pricing__package-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--section-title-color);
+}
+
+.pricing__package-subtitle {
+    font-size: 1rem;
+    line-height: 23px;
+    padding: 0 95px 30px;
+}
+
+.pricing__price {
+    display: flex;
+    align-items: center;
+    padding: 0 68px 0 78px;
+}
+
+.price__value {
+    font-weight: 700;
+    font-size: 74px;
+    color: #252B42;
+    padding-right: 10px;
+    line-height: 84px;
+}
+
+.currency {
+    width: 13px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.price__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.pricing__feature {
+    padding-top: 50px;
+    font-size: 0.937rem;
+    line-height: 28px;
+}
+
+.pricing__list {
+    font-size: 0.937rem;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
+
+.pricing .button {
+    margin-top: 20px;
+}
+
+@media (min-width: 800px) {
+    .pricing__packages {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 1048px){
+    .pricing__package {
+        margin: 43px auto 86px ;
+    }
+}
